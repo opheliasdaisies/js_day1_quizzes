@@ -1,3 +1,7 @@
 function is_between(num, min, max) {
-  return (num > min && num < max)
+  if (min <= num && num <= max) {
+    return true;
+  } else {
+    return false;
+  }
 }
